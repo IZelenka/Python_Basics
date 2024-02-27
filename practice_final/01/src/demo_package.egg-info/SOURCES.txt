@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/demo_package/__init__.py
+src/demo_package/__main__.py
+src/demo_package/my_lib.py
+src/demo_package.egg-info/PKG-INFO
+src/demo_package.egg-info/SOURCES.txt
+src/demo_package.egg-info/dependency_links.txt
+src/demo_package.egg-info/top_level.txt

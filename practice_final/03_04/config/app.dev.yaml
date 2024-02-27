@@ -1,0 +1,22 @@
+version: 1
+formatters:
+  demo_package_formatter:
+    format: '%(asctime)s - %(levelname)s - %(name)s [%(lineno)d] : %(message)s'
+
+handlers:
+  stdout:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: demo_package_formatter
+    stream: ext://sys.stdout
+  stderr:
+    class: logging.StreamHandler
+    level: ERROR
+    formatter: demo_package_formatter
+    stream: ext://sys.stderr
+loggers:
+  demo_package: {}
+
+root:
+  level: DEBUG
+  handlers: [stdout, stderr]

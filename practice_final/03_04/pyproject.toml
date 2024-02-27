@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo_package"
+description = "Package for python course"
+version = "0.1"

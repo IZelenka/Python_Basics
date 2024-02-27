@@ -1,0 +1,2 @@
+[console_scripts]
+demo_package = demo_package.cli:cli
